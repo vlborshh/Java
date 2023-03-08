@@ -29,11 +29,6 @@ public class program {
         multiplicationArray();
         replaceArray();
         diagonalArray(5);
-
-        // int[][] array = new int[4][4]; // [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, x],
-        // [0, 0, 0, 1]]
-        // int x = array[2][3];
-
     }
 
     private static boolean isSumBetween10And20(int a, int b) {
