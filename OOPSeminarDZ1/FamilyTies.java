@@ -19,8 +19,9 @@ public class FamilyTies {
         return tree.get(i);
     }
 
-    @Override
-    public String toString() {
-        return String.format("%s", tree);
+    public void display(Integer i) {
+        System.out.printf("%s", tree.get(i));
+        System.out.println();
     }
+
 }

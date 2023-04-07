@@ -1,6 +1,6 @@
 package OOPSeminarDZ1;
 
-public class People {
+public abstract class People {
     private String name;
     private String gender;
     private String dataBirth;
@@ -23,8 +23,6 @@ public class People {
         return dataBirth;
     }
 
-    @Override
-    public String toString() {
-        return String.format("ФИО: %s, пол: %s, дата рождения: %s", name, gender, dataBirth);
-    }
+    // public abstract void display();
+
 }
