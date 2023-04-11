@@ -39,7 +39,12 @@ public class Program {
         relatives.setId();
         arrayRelatives.add(relatives);
 
-        listLevel.add(arrayRelatives);
+        // listLevel.add(arrayRelatives);
+
+        // Почему происходит запись в listLevel если я в строке 42 закоментил эту
+        // запись...
+        // Почему перезаписывает первую запись строка 23 и добавляет текущую если
+        // разкоментить 42 строку
 
         for (int i = 0; i < listLevel.size(); i++) {
             System.out.println(listLevel.get(i));
