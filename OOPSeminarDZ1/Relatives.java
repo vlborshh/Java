@@ -41,7 +41,6 @@ public class Relatives extends People implements Printer {
         return String.format("ФИО: %s", super.getName());
     }
 
-    // реализация метода display из интерфейса Printer
     public void display() {
         System.out.printf("ФИО: %s, пол: %s, дата рождения: %s, дата смерти: %s",
                 super.getName(),

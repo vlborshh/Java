@@ -2,6 +2,8 @@ package OOPSeminarDZ1;
 
 import java.util.ArrayList;
 
+import static OOPSeminarDZ1.DisplayFamilyTies.displayInfo;
+
 public class FamilyTies {
     private Integer size;
     private ArrayList<Node> tree = new ArrayList<>();
@@ -20,8 +22,7 @@ public class FamilyTies {
     }
 
     public void display(Integer i) {
-        System.out.printf("%s", tree.get(i));
-        System.out.println();
-    }
+        displayInfo(getTree(i));
 
+    }
 }

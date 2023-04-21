@@ -23,6 +23,4 @@ public abstract class People {
         return dataBirth;
     }
 
-    // public abstract void display();
-
 }
